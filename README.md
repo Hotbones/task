@@ -4,7 +4,7 @@ Crear una función con tres parámetros que sean números que se suman entre sí
 
 Llamar a la función en el main y darle valores.
 
-public class Main {
+	public class Main {
     public static void main(String[] args) {
        suma(12,5,4);
 
@@ -16,7 +16,7 @@ public class Main {
         System.out.println("El resultado es: " + resultado);
         return resultado;
     }
-}
+	}
 
 -----------------------------------
 
@@ -32,18 +32,18 @@ Crear un objeto miCoche en el main y añadirle una puerta.
 
 Mostrar el número de puertas que tiene el objeto.
 
-public class Main {
+	public class Main {
     public static void main(String[] args) {
         Coche micoche = new Coche();
         micoche.incrementar();
         System.out.println("El objeto Micoche, ahora tiene " + micoche.puertas + " puertas");
     }
-}
+	}
 
-class Coche {
+	class Coche {
     public int puertas = 4;
 
     public void incrementar(){
         this.puertas++ ;
     }
-}
+	}
